@@ -82,7 +82,7 @@
             "Key": "4ca048b5-b1e7-4c62-b459-41ad69e12797",
             "Value": {
                 "id": "90160de1-5cc6-4e91-8050-ba8132029f00",
-                "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "resourcePath": "sprites\\sTiles\\sTiles.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -132,6 +132,14 @@
                 "id": "f833f930-fea9-4c17-a0e3-43e7bb6f8edb",
                 "resourcePath": "views\\7eb922ac-b6d7-4951-bcb2-c2ba54bf77c5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8b17e84d-5921-45aa-93aa-b2cb776f562c",
+            "Value": {
+                "id": "a4406cc5-d502-4e06-a057-8f7079df5069",
+                "resourcePath": "objects\\oTetris\\oTetris.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -228,6 +236,14 @@
                 "id": "748a0378-82a5-4abb-bf17-ce49c2d178da",
                 "resourcePath": "views\\db6505a6-4908-4bdf-bf23-ee866c39f060.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e96890cc-8197-4bc6-a0ed-d9ff3dda58b1",
+            "Value": {
+                "id": "3cb253a0-1f46-4f81-9142-bc7068c918b6",
+                "resourcePath": "tilesets\\tTiles\\tTiles.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
