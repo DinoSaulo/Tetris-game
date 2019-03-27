@@ -23,13 +23,13 @@ for(var i = 0; i < sprite_get_number(sprite); i++){
 	
 	buffer_seek(buffer, buffer_seek_start, 0);
 	
-	for(var _x = 0; _x < width; _x++) {
-		for(var _y = 0; _y < height; _y++) {
-			var c = buffer_read(buffer, buffer_u32);
-			frame[_x, _y] = c;
-		}
+	for(var _x = 0; _x < width; _x++) 
+	for(var _y = 0; _y < height; _y++) {
+		var c = buffer_read(buffer, buffer_u32);
+		frame[_x, _y] = c;
 	}
 	
+	tetromino[i] = frame;
 }
 
 buffer_delete(buffer);
