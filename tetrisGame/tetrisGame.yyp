@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "53725bb5-9cd7-4fb9-b2fd-b9d29ff189fb",
+            "Value": {
+                "id": "c5985f2b-16c2-48e5-9394-b6188bbebb2c",
+                "resourcePath": "scripts\\get_tetromino\\get_tetromino.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6261810c-aac9-42c7-888e-92c02d7e822a",
             "Value": {
                 "id": "a752815b-b41e-4c4b-9a49-52211a139950",
@@ -170,7 +178,7 @@
             "Key": "aa83e633-11da-442d-a706-52a6087e33d3",
             "Value": {
                 "id": "f63fb3b4-9e16-4a9c-a70c-98aa5361ae4b",
-                "resourcePath": "scripts\\t\\t.yy",
+                "resourcePath": "scripts\\init\\init.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -240,7 +248,8 @@
         }
     ],
     "script_order": [
-        "aa83e633-11da-442d-a706-52a6087e33d3"
+        "aa83e633-11da-442d-a706-52a6087e33d3",
+        "53725bb5-9cd7-4fb9-b2fd-b9d29ff189fb"
     ],
     "tutorial": ""
 }
