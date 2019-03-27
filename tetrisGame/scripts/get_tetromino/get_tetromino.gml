@@ -26,8 +26,7 @@ for(var i = 0; i < sprite_get_number(sprite); i++){
 	for(var _x = 0; _x < width; _x++) {
 		for(var _y = 0; _y < height; _y++) {
 			var c = buffer_read(buffer, buffer_u32);
-			var a = c & 255;
-			frame[_x, _y] = a;
+			frame[_x, _y] = c;
 		}
 	}
 	
